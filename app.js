@@ -7,6 +7,6 @@ $(document).ready(function() {
       if (window_bottom > object_top) {
         $(this).animate({ 'opacity': 1 }, 1000);
       }
-    })
-  })
-})
+    });
+  });
+});
